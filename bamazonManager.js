@@ -20,8 +20,6 @@ connection.connect( function(err){
 
 function afterConnection(){
 
-	console.log("This executed \n" + "PLEASE");
-
 	inquirer.
 		prompt([
 		{
