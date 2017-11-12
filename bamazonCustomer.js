@@ -24,7 +24,6 @@ function afterConnection() {
 		if (err) throw err;
 
 		res.forEach( function(item){
-			var rand = 
 			console.log('\x1b[5m%s\x1b[0m', "id: " + item.item_id + "\n"
 						+ "Product Name: " + item.product_name + "\n"
 						+ "Price: " + item.price + "\n");
