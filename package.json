@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "an amazon-like application",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farid64/bamazon.git"
+  },
+  "author": "Farid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farid64/bamazon/issues"
+  },
+  "homepage": "https://github.com/farid64/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^3.3.0",
+    "mysql": "^2.15.0"
+  }
+}
